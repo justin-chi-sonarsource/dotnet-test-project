@@ -1,0 +1,15 @@
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/bin/Debug/net7.0/dotnetcore-sonar
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/bin/Debug/net7.0/dotnetcore-sonar.deps.json
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/bin/Debug/net7.0/dotnetcore-sonar.runtimeconfig.json
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/bin/Debug/net7.0/dotnetcore-sonar.dll
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/bin/Debug/net7.0/dotnetcore-sonar.pdb
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.AssemblyInfoInputs.cache
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.AssemblyInfo.cs
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.csproj.CoreCompileInputs.cache
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.dll
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/refint/dotnetcore-sonar.dll
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.pdb
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.genruntimeconfig.cache
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/ref/dotnetcore-sonar.dll
+/Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/obj/Debug/net7.0/dotnetcore-sonar.csproj.AssemblyReference.cache

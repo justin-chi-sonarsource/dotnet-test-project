@@ -19,7 +19,7 @@ steps:
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
 
-- script: "echo ${JAVA_HOME}"
+- script: echo ${JAVA_HOME}
 
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5
@@ -28,9 +28,6 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'dotnetcore-sonar-azuredevops'
     projectName: 'dotnetcore-sonar-azuredevops'
-    script: |
-      echo "${JAVA_HOME}"
-      echo "${PATH}"
 
 # sqa_d8c33433e33d7e0c02505d9839ca092fd26eec5c
 # Dotnet build task

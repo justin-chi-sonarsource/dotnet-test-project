@@ -16,10 +16,8 @@ steps:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
-    script:
-      java -version
-    env:
-      PATH: $(JAVA_HOME)/bin;$(PATH)
+    script: |
+      echo "##vso[task.setvariable variable=PATH]$(JAVA_HOME)\bin;$(PATH)"
 
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5

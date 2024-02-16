@@ -14,11 +14,12 @@ steps:
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5
   inputs:
-    SonarQube: 'joshua-sonarqube' # SonarQube service connection id (found in Azure DevOps)
+    SonarQube: 'justin-sonarqube' # SonarQube service connection id (found in Azure DevOps)
     scannerMode: 'MSBuild'
-    projectKey: 'dotnetcore-azuredevops_dotnetcore-azuredevops_AYbAf9qWAu8T8ZieRlfh'
+    projectKey: 'dotnetcore-sonar-azuredevops'
     projectName: 'dotnetcore-sonar-azuredevops'
 
+# sqa_d8c33433e33d7e0c02505d9839ca092fd26eec5c
 # Dotnet build task
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'

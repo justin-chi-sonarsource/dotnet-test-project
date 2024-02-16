@@ -16,8 +16,6 @@ steps:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
-    script: |
-      echo "##vso[task.setvariable variable=PATH]$(JAVA_HOME)\bin;$(PATH)"
 
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5
@@ -36,10 +34,7 @@ steps:
   displayName: 'dotnet build'
 
 # Run Code Analysis task
-- task: SonarQubeAnalyze@5  
-  script: |
-    echo "${JAVA_HOME}"
-    echo "${PATH}"
+- task: SonarQubeAnalyze@5
 
 # Publish Quality Gate Result task
 - task: SonarQubePublish@5

@@ -19,7 +19,7 @@ steps:
     script:
       java -version
     env:
-      PATH: %JAVA_HOME%/bin;%PATH%
+      PATH: $(JAVA_HOME)/bin;$(PATH)
 
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5

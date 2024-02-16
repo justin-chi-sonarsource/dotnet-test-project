@@ -21,6 +21,9 @@ steps:
 
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5
+  script: |
+    echo "${JAVA_HOME}"
+    echo "${PATH}"
   inputs:
     SonarQube: 'justin-sonarqube' # SonarQube service connection id (found in Azure DevOps)
     scannerMode: 'MSBuild'
@@ -37,6 +40,9 @@ steps:
 
 # Run Code Analysis task
 - task: SonarQubeAnalyze@5
+  script: |
+    echo "${JAVA_HOME}"
+    echo "${PATH}"
 
 # Publish Quality Gate Result task
 - task: SonarQubePublish@5

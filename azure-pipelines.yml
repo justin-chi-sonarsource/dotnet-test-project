@@ -11,7 +11,7 @@ variables:
 
 steps:
 
-- task: JavaToolInstaller@5
+- task: JavaToolInstaller@4
   inputs:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'

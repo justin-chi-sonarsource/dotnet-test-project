@@ -17,15 +17,11 @@ steps:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
-
-  - script: echo "Setting JAVA_HOME to JDK 17 location."
-    displayName: 'Set JAVA_HOME to JDK 17'
-
-  - script: |
+    script: |
       java -version
       echo "JVM: $(java -version)"
     displayName: 'Check Java Version'
-    
+
 # Prepare Analysis Configuration task
 - task: SonarQubePrepare@5
   inputs:

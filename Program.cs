@@ -47,7 +47,7 @@ class Solution
             {
                 if(extention == "N/A")
                 {
-                    Console.WriteLine("UNKNOWN");
+                    Console.WriteLine("UNKNOWN 1");
                 }
                 else if (fileExtention.ContainsKey(extention))
                 {

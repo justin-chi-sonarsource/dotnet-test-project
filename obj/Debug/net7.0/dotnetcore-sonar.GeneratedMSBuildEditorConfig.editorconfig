@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotnetcore_sonar
-build_property.ProjectDir = /Users/justin/Documents/workspace/dotnet/dotnetcore-sample-project/
+build_property.ProjectDir = /Users/justin/git/dotnet-test-project/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
